@@ -1,0 +1,39 @@
+﻿@font-face {
+    font-family: 'SegoeWP';
+    src: url(/segoe/segoewp.ttf);
+}
+html { 
+  background: #000;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: url(/img/winner1.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.win{
+  display: none;
+  margin: auto;
+  text-align: center;
+  font-size: 4.5em;
+}
+@media all and (max-width: 1200px) {
+  body {
+    background: #000;
+    color: #5d0069;
+    font-family: 'SegoeWP';
+    }
+    .win {
+    display: block;
+}
+  }
+@media all and (max-width: 700px) {
+.win {
+    font-size: 2.8em;
+}

@@ -1,0 +1,187 @@
+﻿html { 
+  background: #000;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-family: 'SegoeWP';
+  color: #fef7d9;
+  margin: 0 auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url(/segoe/segoewp.ttf);
+}
+@font-face {
+    font-family: 'SegoeLight';
+    src: url(/segoe/segoewp-light.ttf);
+}
+@font-face {
+    font-family: 'SegoeSemibold';
+    src: url(/segoe/segoewp-semibold.ttf);
+}
+@font-face {
+      font-family: 'SegoeBold';
+src: url(/segoe/segoewp-bold.ttf);
+}
+
+a:link, a:visited { 
+  text-decoration: none; 
+  color: #5d0069;
+  font-family: 'SegoeBold';
+  font-size: 1.5em;
+}
+
+a:visited{
+  color: #b379ce;
+}
+
+.vk {
+  width: 85%;
+  text-align: right;
+  margin: 0;
+}
+.image{
+  display: block;
+  width: 90%;
+
+  margin: 0 auto 0  auto;
+}
+.link_vk, .link_vk:visited{
+  color: #5d0069;
+}
+#content{
+  margin: 0 5% 0 10%;
+//  border: 1px solid blue;
+}
+
+#crop, #release {
+  font-family: 'SegoeSemibold';
+  color: #fef7d9;
+  background-color: #5d0069;
+  width: 100%;
+  display: block;
+  max-width: 350px;
+  height: 150%;
+  margin: 3%;
+  border: 0;
+  font-size: 1.5em; 
+}
+#release{
+  background-color: #fef7d9;
+  color: #555;
+}
+.button_reg, #file_reg{
+  font-family: 'SegoeSemibold';
+  color: #fef7d9;
+  background-color: #5d0069;
+  width: 100%;
+  display: block;
+  max-width: 350px;
+  height: 40px;
+  margin: 5% auto;
+  border: 0;
+  font-size: 1.5em; 
+}
+#file_reg{
+  color: #555;
+  background-color: #fef7d9; 
+}
+.inline-labels{
+  display: none;
+}
+.admin_message{
+  font-size: 1em;
+  display: block;
+  margin: auto auto;
+  text-align: center;
+}
+
+
+h1{
+  font-family: 'SegoeWP';
+  font-size: 1.5em; 
+  color: #5d0069;
+  text-align: center;
+  margin: 3%;
+}
+h2{
+  display: block;
+  font-family: 'SegoeLight';
+  font-size: 5.5em; 
+  color: #5d0069;
+  text-align: center;
+  margin: 1%;
+}
+.april{
+  display: block;
+  font-size: 8.5em;
+  font-family: 'SegoeWP';
+  margin-left: 25%;
+}
+.comment{
+  display: block;
+  font-size: 2.5em;
+  font-family: 'SegoeLight';
+  margin: 10%;
+}
+
+@media all and (max-width: 800px) {
+.admin_message{
+  font-size: 1em;
+}
+
+h1{
+  font-size: 1.2em;
+}
+  #content {
+  padding: 0;
+  margin: 5%;
+//  border: 1px solid blue;
+//  background-color: white;
+  }
+
+.container-flex {
+      display: block;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 8px;
+      align-content: center;
+      margin: 0 auto;
+}
+
+.flex {
+    width: 100%;
+    min-width: 80%;
+    margin: 0 auto 8px auto;
+  }
+  .subscribe {
+   font-size: .9em;
+ }
+.but1{
+  margin: 0 auto;
+}
+
+.auth_form{
+  margin: 0 auto;
+//  border: 1px solid 5d0069;
+}
+.image{
+  display: block;
+  width: 90%;
+  margin: 10% auto 0  auto;
+}
+
+}
+.errors{
+  font-family: 'SegoeLight';
+  color:  #fef7d9;
+  font-size: 1.5em;
+  margin-left: 30%;
+}

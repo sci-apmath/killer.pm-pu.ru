@@ -1,0 +1,20 @@
+php_value session.save_path "./sessions/"
+
+Options All -Indexes
+
+# Заголовок Cache-Control
+<IfModule mod_headers.c>
+		FileETag None
+		Header unset ETag
+		Header unset Pragma
+		Header unset Cache-Control
+		Header unset Last-Modified
+		Header set Pragma "no-cache"
+        Header set Cache-Control "max-age=0, no-store, no-cache, must-revalidate"
+		Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+</IfModule>
+ 
+# Заголовок Expires
+<IfModule mod_expires.c>
+        ExpiresActive On ExpiresDefault "now"
+</IfModule>

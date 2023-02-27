@@ -1,0 +1,294 @@
+﻿html { 
+  background: #000;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-family: 'SegoeWP';
+  color: #fef7d9;
+  margin: 0 auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background: url('/img/killer.png');
+  background-repeat: no-repeat;
+  background-position: left 15% top 0%;
+
+}
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url(/segoe/segoewp.ttf);
+}
+@font-face {
+    font-family: 'SegoeLight';
+    src: url(/segoe/segoewp-light.ttf);
+}
+@font-face {
+    font-family: 'SegoeSemibold';
+    src: url(/segoe/segoewp-semibold.ttf);
+}
+@font-face {
+      font-family: 'SegoeBold';
+src: url(/segoe/segoewp-bold.ttf);
+}
+
+a:link, a:visited { 
+  text-decoration: none; 
+  color: #a09797;
+  font-family: 'SegoeBold';
+  font-size: 1.4em;
+}
+
+a:visited{
+  color: #900;
+}
+
+.vk {
+  width: 85%;
+  text-align: right;
+}
+
+.link_vk, .link_vk:visited{
+  color: #efe6e6;
+}
+.link_auth {
+  display: block;
+  margin: 5% auto;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2em;
+ // margin-top: 8%;
+  font-family: 'SegoeWP';
+}
+#content{
+  min-height: 50%;
+  margin: 0 5% 0 10%;
+  //background: url('/img/killer.png');
+//  border: 1px solid blue;
+}
+#content_auth{
+  height: 70%;
+  width: 70%;
+  margin: auto auto;
+  border-right: 1px solid black;
+}
+@-moz-document url-prefix() { 
+  #content_auth{
+  height: 600px;
+  } 
+}
+
+input, select{
+  font-size: 1.2em;
+  font-family: 'SegoeLight';
+  width: 95%;
+  height: 30px;
+  border: 0;
+  color: #D3D3D3;
+  margin: 0;
+  background-color: #333;
+  padding: 0 0 0 5%;
+}
+select{
+  width: 100%;
+}
+#file_reg{
+  margin: 0;
+  max-width: 100%;
+  background-color: #D3D3D3;
+  color: #333;
+  font-family: 'SegoeSemibold';
+  padding-top: 2%;
+
+}
+//input.field_reg{
+//  max-width: 500px;
+//  background-color: #333;
+//  border: 1px solid blue;
+//border: 0;
+//}
+
+input.button_reg{
+  color: #fef7d9;
+  background-color: #a09797;
+  font-family: 'SegoeBold';
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+.but1{
+  background-color: red;
+  width: 100%;
+  display: block;
+  max-width: 350px;
+  margin: auto;
+//  border: 1px solid green;
+}
+.subscribe {
+  color: #555;
+  display: none;
+    height: 90%;
+  margin: 0;
+//  border: 1px solid red;
+ text-align: center;
+}
+
+.reg_form{
+  max-width: 850px;
+  margin: auto auto;
+  margin-top: 0;
+// border: 1px solid green;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ // width: 80% 80%;
+ // margin: 0 auto;
+//  border: 1px solid red;
+  min-height: 500px;
+  padding: 10px;
+ // min-width: 400px;
+  //max-width: 1000px;
+  align-content: space-between;
+}
+.flex {
+ width: 40%;
+ min-width: 280px;
+ max-width: 350px;
+ //border: 1px solid red;
+  margin: 0px 0px 0px 40px;
+  padding: 0px;
+}
+.const1 {
+  height: 48px;
+}
+.const2 {
+  height: 70px;
+}
+h1{
+  font-family: 'SegoeWP';
+  font-size: 1.5em; 
+  color: #a09797;
+  text-align: center;
+  margin: 1%;
+}
+h2{
+  display: block;
+  font-family: 'SegoeSemibold';
+  font-size: 4.5em; 
+  color: #a09797;
+  text-align: center;
+  margin: 1%;
+}
+.april{
+  display: block;
+  font-size: 8.5em;
+  font-family: 'SegoeLight';
+  margin-left: 25%;
+}
+.comment{
+  display: block;
+  font-size: 2.5em;
+  font-family: 'SegoeLight';
+  margin: 10%;
+}
+.cap_reg{
+  margin: auto auto;
+  width: 90%;
+  max-width: 1400px;
+}
+
+#cap {
+  display: block;
+  margin: auto auto;
+  width:90%;
+}
+
+
+
+.auth_form{
+  max-width: 850px;
+  margin: 15% 5% 20% 55%;
+//  border: 1px solid red;
+}
+
+input.field_auth {
+  width: 95%;
+ height: 40px;
+//  border: 1px solid green;
+//  font-size: 1.7em;
+	padding-left: 5%;
+	margin-bottom: 5%; 
+}
+
+input.button_auth{
+  color: #fef7d9;
+  background-color: #a09797;
+  font-family: 'SegoeBold';
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+@media all and (max-width: 800px) {
+  .vk{
+    display: none;
+  }
+
+body{
+	background: #000;
+}
+
+h1{
+  font-size: 1.2em;
+}
+
+#content {
+  padding: 0;
+  margin: 5%;
+//  border: 1px solid blue;
+//  background-color: white;
+  }
+
+.container-flex {
+      display: block;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 8px;
+      align-content: center;
+      margin: 0 auto;
+      min-height: 0;
+}
+
+.flex {
+    width: 100%;
+    min-width: 80%;
+    margin: 0 auto 10px auto;
+  }
+  .subscribe {
+   font-size: .9em;
+ }
+.but1{
+  margin: 0 auto;
+}
+
+.auth_form{
+  margin: 0 auto;
+//  border: 1px solid red;
+}
+
+
+}
+.errors{
+  font-family: 'SegoeLight';
+  color:  #fef7d9;
+  font-size: 1.5em;
+  margin-left: 30%;
+}
